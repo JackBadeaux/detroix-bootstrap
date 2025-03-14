@@ -1,53 +1,53 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-header .container-fluid{
+
+header .row {
     background-color: #0b0b31;
-    border: none;
     border-radius: 0;
     height: fit-content;
-
 }
-header .navbar{
-    justify-content: flex-end;
-    flex: 1;
-}
-header a,li{
+header a,li {
     color: slategray;
     text-decoration: none;
 }
-header{
+
+header {
     font-size: 10px;
 }
 
 main {
     background-color: #f2f3f5;
 }
-main nav{
+
+main nav {
     margin-right: 10px;
 }
-.nav-link{
+
+.nav-link {
     text-decoration: none;
     background-color: #0b0b31;
     border-radius: 5px;
     padding: 10px;
     color: white;
 }
-.logoimg{
+
+.logoimg {
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 40px;
 }
 
-.button{
+.button {
     width: 20px;
     height: 20px;
     background-color: gray;
     border-radius: 50%;
 
 }
-.btn{
+
+.btn {
     background-color: #213349;
     color: white;
     padding: 10px;
@@ -55,6 +55,7 @@ main nav{
     border: none;
     cursor: pointer;
 }
+
 .sssitem {
     border-top: 1px solid grey;
     display: flex;
@@ -63,54 +64,64 @@ main nav{
     justify-content: center;
     align-items: flex-start;
     padding: 20px;
-    flex: 1; 
- 
+    flex: 1;
+
 }
-.sssitem p{
+
+.sssitem p {
     color: rgb(153, 153, 153);
 }
 
 
-.sssitem:not(:last-child){
+.sssitem:not(:last-child) {
     border-right: 1px solid grey;
 }
-.son-container{
+
+.son-container {
     background: linear-gradient(to bottom, rgb(12, 12, 65), #06061d);
 }
-.son-container h1{
+
+.son-container h1 {
     color: white;
 }
-.son-item ul li{
+
+.son-item ul li {
     margin: 20px;
     margin-left: -10px;
     flex-grow: 1;
 }
-.son-item ul li::marker{
+
+.son-item ul li::marker {
     content: "⚙️";
 }
-.son-item ul{
+
+.son-item ul {
     display: grid;
     grid-template-columns: 1fr;
 }
-.son-item{
+
+.son-item {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: baseline;
     flex-wrap: wrap;
     margin: 10px;
-    flex: 1 1 30%; 
+    flex: 1 1 30%;
     min-width: 280px;
     max-width: 32%;
     margin: 20px;
 }
-.opgroup h2{
-color: white;
+
+.opgroup h2 {
+    color: white;
 }
-.opgroup p{
- color: rgb(146, 146, 146);
+
+.opgroup p {
+    color: rgb(146, 146, 146);
 }
-.cal-1{
+
+.cal-1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -125,7 +136,8 @@ color: white;
 
 
 }
-.cal-2{
+
+.cal-2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -139,7 +151,8 @@ color: white;
     border-radius: 20px;
 
 }
-.cal-3{
+
+.cal-3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -153,46 +166,56 @@ color: white;
     border-radius: 20px;
 }
 
-.h2p{
+.h2p {
     margin-left: 20px;
 }
-.cal-1,.cal-2,.cal-3{
+
+.cal-1,
+.cal-2,
+.cal-3 {
     font-weight: 600;
     padding: 40px;
 }
-.calgroup{
+
+.calgroup {
     display: flex;
     margin-top: 10px;
 }
-.calgroup p{
+
+.calgroup p {
     font-size: 20px;
     margin-top: -10px;
     font-weight: 400;
 }
-.calgroup h2{
-color: white    
+
+.calgroup h2 {
+    color: white
 }
+
 .h2p p {
     color: darkgray;
 }
-footer .card{
+
+footer .card {
     background-color: #0f0f61;
     color: white;
     border-radius: 0;
     height: fit-content;
 }
-footer .card p{
+
+footer .card p {
     margin: 0;
 }
 
 @media (max-width:800px) {
-    .sssitem{
+    .sssitem {
         border-right: 1px solid grey;
     }
-    
+
 }
+
 @media (max-width:683px) {
-    main nav{
+    main nav {
         margin-left: 10px;
     }
 }
